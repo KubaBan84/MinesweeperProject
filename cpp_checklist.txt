@@ -1,0 +1,21 @@
+done: total(23)
+Dynamic allocation -> 2 pt (using new keyword or smart pointers) - 55, 87 examples
+One main program class -> 2 pt (e.g. Game or Application class) - 81
+Constructor -> 1 pt (non empty) - 85-95
+Destructor -> 1 pt (if raw pointers were used it should not be empty) - 96-103
+Encapsulation-> 1 pt (private and protected) - 14-16 (Protected), 47-50 (Private)
+Inheritance -> 2 pt - 29,38
+Virtual method -> 1 pt - 25-27
+Polymorphism -> 7 pt 87,125,156
+Enumeration -> 1 pt (enum class) - 12
+Error handling -> 2 pt (exceptions or messages about error e.g. std::cerr << "Failed to load file ...) - 109-115
+Generic class/method -> 3 pt (template <typename T>) -45
+
+not done: total(7)
+Unit tests -> 3 pt
+Parallel programming -> 3 pt (std::thread)
+Operator overloading -> 1 pt
+
+half done: total(2)
+STL Algorithm -> 1 pt (std::sort, std::min_element, std::count_if etc.) (is in the code but does nothing) -228
+Read and write to file -> 1 pt (<fstream>) (i did reading from file but not writing beacouse i had no idea how to do it in cpp alone) -107

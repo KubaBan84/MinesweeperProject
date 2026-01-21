@@ -1,0 +1,1 @@
+całkowicie przerobiłem cpp na obiektówkę żeby spełniał jak najwięcej wymagań tłumaczenie każdzej zmianny tutaj byłoby zbyt czasochłonne kod ma komentarze 

@@ -78,18 +78,34 @@ extern "C" {
 /*
  * Class:     MinesweeperGUI
  * Method:    requestMapFromCpp
- * Signature: (I)[[I
+ * Signature: (IJZ)[[I
  */
 JNIEXPORT jobjectArray JNICALL Java_MinesweeperGUI_requestMapFromCpp
-  (JNIEnv *, jobject, jint);
+  (JNIEnv *, jobject, jint, jlong, jboolean);
 
 /*
  * Class:     MinesweeperGUI
  * Method:    getFloodFill
- * Signature: (II)[[I
+ * Signature: (IIJ)[[I
  */
 JNIEXPORT jobjectArray JNICALL Java_MinesweeperGUI_getFloodFill
-  (JNIEnv *, jobject, jint, jint);
+  (JNIEnv *, jobject, jint, jint, jlong);
+
+/*
+ * Class:     MinesweeperGUI
+ * Method:    setupcpp
+ * Signature: ()J
+ */
+JNIEXPORT jlong JNICALL Java_MinesweeperGUI_setupcpp
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     MinesweeperGUI
+ * Method:    endofgamecpp
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_MinesweeperGUI_endofgamecpp
+  (JNIEnv *, jobject, jlong);
 
 #ifdef __cplusplus
 }

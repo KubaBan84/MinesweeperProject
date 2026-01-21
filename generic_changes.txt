@@ -1,0 +1,7 @@
+dodałem wymóg żeby trzeba było wpisywać liczbę bomb pomiędzy 1 a 50 
+
+wczytywanie mapy z pliku
+
+licznik ile postawiłeś flag w porównianu z ilością bomb
+
+zablokowałem odkrywanie pól z flagami
