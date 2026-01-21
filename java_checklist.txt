@@ -1,0 +1,16 @@
+Total: 24/28
+
+    Constructor -> 1 pt
+    Destructor -> 1 pt 
+    Encapsulation-> 1 pt
+    Inheritance -> 2 pt
+    Interface/abstract class -> 1 pt 
+    Overriden method -> 1 pt 
+    Polymorphism -> 7 pt
+    Enumeration -> 1 pt 
+    Read and write to file -> 1 pt
+Collections -> 1 pt 
+    Error handling -> 2 pt 
+    Generic class/method -> 3 pt 
+Unit tests -> 3 pt
+    Parallel programming -> 3 pt
