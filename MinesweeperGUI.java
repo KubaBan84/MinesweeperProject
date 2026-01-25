@@ -212,7 +212,8 @@ public class MinesweeperGUI extends JFrame {
         if (revealedCount == (100 - totalBombs)) {
             String message = "\uD83C\uDFC6 GAME OVER - YOU WIN!";
             if (timeElapsed < bestTime) {
-                message += "\nNEW HIGH SCORE! " + timeElapsed + "s (Old Best: " + bestTime + "s)";
+                String oldBest = (bestTime == 9999) ? "None" : bestTime + "s";
+                message += "\nNEW HIGH SCORE! " + timeElapsed + "s (Old Best: " + oldBest + ")";
                 saveBestTime(timeElapsed); 
             } else {
                 message += "\nYour Time: " + timeElapsed + "s";
